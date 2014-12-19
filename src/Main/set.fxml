@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="175.0" prefWidth="321.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Main.setController">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="相似度阈值设置：" />
+      <ChoiceBox fx:id="diffCB" layoutX="119.0" layoutY="57.0" prefHeight="23.0" prefWidth="84.0" value="模式A">
+          <items>
+              <FXCollections fx:factory="observableArrayList">
+                  <String fx:value="模式A" />
+                  <String fx:value="模式B" />
+              </FXCollections>
+          </items>
+      </ChoiceBox>
+
+      <Label layoutX="14.0" layoutY="61.0" text="选择检测类型：" />
+      <Button layoutX="180.0" layoutY="127.0" mnemonicParsing="false" onAction="#setOK" text="确定" />
+      <Button layoutX="255.0" layoutY="127.0" mnemonicParsing="false" onAction="#setCancel" text="取消" />
+      <TextField fx:id="thresholdText" layoutX="119.0" layoutY="10.0" prefHeight="23.0" prefWidth="60.0" text="30" />
+      <Label layoutX="154.0" layoutY="14.0" text="\%" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="475.0" prefWidth="531.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="167.0" layoutY="14.0" prefHeight="44.0" prefWidth="171.0" text="关于文本抄袭检测软件">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutY="58.0" prefHeight="335.0" prefWidth="531.0" text="&#10;  本软件能够检测文档之间的相似性，通过对比设置好的阈值来给出判定结果。&#10;  软件使用说明：&#10;      1.菜单说明&#10;               文件菜单中的文件选择可以导入作业文档&#10;               设置菜单中的设置可以调节文本相似性的阈值&#10;      2.操作说明&#10;                 主界面分为最上面的菜单栏，中间部分左侧的文件列表栏，中间部分的计算结果&#10;           显示表格，下部分的按钮&#10;                 当导入文档之后，主界面左侧有一个列表部件，能够显示导入文件的文件名称。&#10;          文件列表下面有两个按钮。其中一个为相似度计算的按钮，单击此按钮可以计算导入&#10;          文件的相似度并在表格中显示，另外一个为清空列表的按钮，可以清空此次选择的多&#10;          个文件进行重新选择&#10;                  计算文档间相似度时，表格下方会出现一个指示计算进度的进度条，计算完成后&#10;          结果显示在表格中。表格下方会出现一个导出按钮，可以将此次检测结果导出到文本&#10;          文件中&#10;                  当右击表格其中有记录的一行时，会弹出“对比“菜单，单击会出现一个对比两篇文&#10;           档相似句子的界面，在此界面可以直观地看到相似句子的对比&#10;&#10;&#10;                                                                                                  软件所有者：陆嘉恒&#10;                                                                                                    指导老师   : 黄孝喜" />
+   </children>
+</AnchorPane>
